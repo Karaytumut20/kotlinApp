@@ -25,6 +25,5 @@ Gerekli bağımlılıkları yükleyin.<br>
 Uygulamayı çalıştırın.<br>
 xampp ile mysql ve apacheyi açın<br>
 buradaki sql dosyasını php my admine import edin <br>
-[Uploading tarif_db_1.sql…]() <br>
-Backend dosyasına terminalle girip node server.js
+Backend dosyasına terminalle girip node server.js dedikten sonra 4000 portunda çalıştıgından emin olun.
 
