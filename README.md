@@ -23,3 +23,8 @@ git clone https://github.com/Karaytumut20/kotlinApp <br>
 Android Studio'da projeyi açın.<br>
 Gerekli bağımlılıkları yükleyin.<br>
 Uygulamayı çalıştırın.<br>
+xampp ile mysql ve apacheyi açın<br>
+buradaki sql dosyasını php my admine import edin <br>
+[Uploading tarif_db_1.sql…]() <br>
+Backend dosyasına terminalle girip node server.js
+
