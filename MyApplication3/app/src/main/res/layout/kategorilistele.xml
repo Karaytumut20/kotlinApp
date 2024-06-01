@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#caace8"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Kategoriler"
+        android:textSize="34sp"
+        android:textColor="#ff7f00" />
+
+    <ListView
+        android:id="@+id/categoryListView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:minHeight="48dp"
+        android:background="#ffffff"
+        android:divider="#caace8"
+        android:dividerHeight="10dp" />
+
+</RelativeLayout>

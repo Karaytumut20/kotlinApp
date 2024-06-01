@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#caace8"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Yeni Kategori"
+        android:textSize="24sp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/categoryNameEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:hint="Kategori Adı"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/addCategoryButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categoryNameEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Kategori Ekle" />
+
+    <Button
+        android:id="@+id/loadCategoriesButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addCategoryButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Kategorileri Yükle" />
+
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loadCategoriesButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:minHeight="48dp" />
+</RelativeLayout>

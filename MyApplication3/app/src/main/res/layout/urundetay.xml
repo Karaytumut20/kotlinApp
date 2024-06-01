@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#caace8"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:elevation="4dp"
+        android:layout_marginBottom="16dp">
+
+        <!-- Ürün Görseli -->
+        <ImageView
+            android:id="@+id/productImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+
+        <!-- Ürün Başlığı -->
+        <TextView
+            android:id="@+id/productTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="@color/black"/>
+
+        <!-- Hazırlanma Zamanı Başlığı -->
+        <TextView
+            android:id="@+id/prepTimeTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hazırlanma Zamanı"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/black"/>
+
+        <!-- Hazırlanma Zamanı Metni -->
+        <TextView
+            android:id="@+id/prepTimeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <!-- Malzemeler Başlığı -->
+        <TextView
+            android:id="@+id/ingredientsTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Malzemeler"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="18dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/black"/>
+
+        <!-- Malzemeler Listesi -->
+        <TextView
+            android:id="@+id/ingredientsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/preparationTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hazırlanışı"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="18dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/black"/>
+
+
+        <TextView
+            android:id="@+id/preparationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:paddingBottom="16dp"/>
+    </LinearLayout>
+</ScrollView>

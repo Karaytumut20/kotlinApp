@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#caace8"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Yeni Tarif"
+        android:textSize="54sp"
+        android:textColor="#ff7f00" />
+
+    <EditText
+        android:id="@+id/recipeNameEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:hint="Tarif Adı"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/preparationTimeEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recipeNameEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:hint="Hazırlanma Zamanı"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/ingredientsEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/preparationTimeEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:hint="Malzemeler"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/preparationEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ingredientsEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:hint="Hazırlanış"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/preparationEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/addRecipeButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categorySpinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Tarif Ekle"
+        android:background="#ff7f00"
+        android:shadowColor="#ffffff"/>
+
+
+
+</RelativeLayout>
